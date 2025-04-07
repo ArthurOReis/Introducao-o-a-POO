@@ -39,7 +39,7 @@ public class BuzzLightyear {
     }
 
     public int RealizaGolpe(){
-        return this.golpe.nextInt(10);
+        return this.golpe.nextInt(10); //O golpe é interpretado como se fosse um movimento de RPG de um dado D10
     }
 
     public String Frases(){
