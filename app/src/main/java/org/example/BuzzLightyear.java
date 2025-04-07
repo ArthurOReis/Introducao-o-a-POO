@@ -58,7 +58,7 @@ public class BuzzLightyear {
             case 4:
                 return "Isto não é voar. Isto é cair, com estilo!";
             case 5:
-                return "Onde?";
+                return "Esta não é uma missão de reconhecimento, é uma missão de resgate!";
             default:
                 return "";
         }
