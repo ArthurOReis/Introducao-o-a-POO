@@ -22,7 +22,7 @@ public class BuzzLightyear {
         this.capacete_aberto = capacete_aberto;
     }
 
-    public boolean EstaDisparandoLaser(){
+    public boolean isDisparandoLaser(){
         return this.dispara_laser;
     }
 

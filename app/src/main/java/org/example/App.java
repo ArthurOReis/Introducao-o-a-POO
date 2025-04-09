@@ -6,9 +6,20 @@ package org.example;
 public class App {
 
     public static void main(String[] args) {
-        Contador contador = new Contador();
-        System.out.println("Valor inicial: " + contador.GetContador());
-        contador.Incrementador();
-        System.out.println("Valor valor atual: " + contador.GetContador());
+        BuzzLightyear buzz_1 = new BuzzLightyear();
+        BuzzLightyear buzz_2 = new BuzzLightyear();
+        BuzzLightyear buzz_3 = new BuzzLightyear();
+
+        System.out.println("Buzz um diz: " + buzz_1.Frases());
+        System.out.println("Buzz dois diz: " + buzz_2.Frases());
+        System.out.println("Buzz três diz: " + buzz_3.Frases());
+
+        System.out.println("Golpe do Buzz dois: " + buzz_2.RealizaGolpe());
+
+        
+        System.out.println("Buzz três está voando?: " + buzz_2.isComAsasAbertas());
+        
+        buzz_1.setDisparaLaser(true);
+        System.out.println("Buzz um está atirando com laser?: " + buzz_1.isDisparandoLaser());
     }
 }
